@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(rgba(146, 19, 19, 0.829), rgba(0, 0, 0, 0.418)), url(Images/PUP.jpg);
+    background: linear-gradient(rgba(146, 19, 19, 0.829), rgba(0, 0, 0, 0.418)), url(images/PUP.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
