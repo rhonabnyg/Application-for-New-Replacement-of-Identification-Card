@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(146, 19, 19), rgba(0, 0, 0, 0.767)), url(Images/PUP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*-- -------------------------header------------------------- */
+#header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px; 
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 10px;
+}
+
+/*-- -------------------------nav------------------------- */
+
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+/*-- -------------------------button apply now------------------------- */
+
+button {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(107, 7, 7);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+button a {
+    color: #5f0000;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+  }
+
+/*-- -------------------------header text------------------------- */
+.header-text{
+    margin-top: 2%;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.header-text h1{
+    font-size: 40px;
+}
+
+.header-text h2{
+    font-size: 25px;
+}
+
+.header-text h3{
+    font-weight: 750;
+    font-size: 20px;
+}
+
+
+p a{
+    text-decoration: none;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*-- -------------------------table------------------------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/*-- -------------------------footer------------------------- */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0px;
+    background: #5c0000;
+    font-weight: 300;
+    margin-top: 450px;
+}
+
+.footer-links {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: none;
+}

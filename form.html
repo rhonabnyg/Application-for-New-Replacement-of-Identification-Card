@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>PUP- OSS FORM : Application for New/Replacement of Identication Card</title>
+    <link rel="stylesheet" href="fstyle.css">
+    <script src="form.js"></script> 
+    <link rel="icon" type="image/png" href="Images/logo.png">
+</head>
+
+<body>
+<!-- -----main container starts------ -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" class="logo"></a>
+            <a class="title">PUP- OSS FORM : Application for New/Replacement of Identication Card</a>
+            <ul>
+                <li><a href="index.html">Back</a></li>
+            </ul>
+    </div>
+</div>
+
+<!-- -----form starts------ -->
+<main>
+    <div class="page-background">
+        <form action="https://script.google.com/macros/s/AKfycbwCz5I5RM-WRdcR4ihxmhoW3VKAvdYsXHHIkgB06EnYZ7jsrYyXM07tYq0HhAqYobkzQw/exec" method="post">
+            <div class="checkbox-container">
+                <div class="checkbox-row">
+                    <label for="transferee">Transferee</label>
+                    <input type="checkbox" id="transferee" name="transferee">
+                </div>
+                <div class="checkbox-row">
+                    <label for="late_filling">Late Filling</label>
+                    <input type="checkbox" id="late_filling" name="late_filling">
+                </div>
+                <div class="checkbox-row">
+                    <label for="old_id">Old ID</label>
+                    <input type="checkbox" id="old_id" name="old_id">
+                </div>
+                <div class="checkbox-row">
+                    <label for="Shiftee">Shiftee</label>
+                    <input type="checkbox" id="Shiftee" name="Shiftee">
+                </div>
+                <div class="checkbox-row">
+                    <label for="Damaged">Damaged</label>
+                    <input type="checkbox" id="Damaged" name="Damaged">
+                </div>
+                <div class="checkbox-row">
+                    <label for="Correction of Entry">Correction of Entry</label>
+                    <input type="checkbox" id="Correction of Entry" name="Correction of Entry">
+                </div>
+                <div class="checkbox-row">
+                    <label for="LHS">LHS</label>
+                    <input type="checkbox" id="LHS" name="LHS">
+                </div>
+                <div class="checkbox-row">
+                    <label for="SHS">SHS</label>
+                    <input type="checkbox" id="SHS" name="SHS">
+                </div>
+                <div class="checkbox-row">
+                    <label for="Undergrad">Undergrad</label>
+                    <input type="checkbox" id="Undergrad" name="Undergrad">
+                </div>
+                <div class="checkbox-row">
+                    <label for="college_of_law">College of Law</label>
+                    <input type="checkbox" id="college_of_law" name="college_of_law">
+                </div>
+                <div class="checkbox-row">
+                    <label for="Institute_of_technology">Institute of Technology</label>
+                    <input type="checkbox" id="Institute_of_technology" name="Institute_of_technology">
+                </div>
+            
+            </div>
+            &nbsp
+
+            <div class="student_number">   
+                <label for="student_number">STUDENT NUMBER:</label>
+                <input type="text" id="stud_number" placeholder="Ex. 20** - ***** - MN - 0" name="student_number" pattern="\d{4}-\d{5}-MN-0" required></input>
+            </div>
+
+            <div class="first_name">   
+                <label for="first_name">FIRST NAME:</label>
+                <input type="text" id="first_name" placeholder="Ex. JUAN" name="first_name" required></input>
+            </div>
+
+            <div class="middle_name">   
+                <label for="middle_name">MIDDLE NAME:</label>
+                <input type="text" id="middle_name" placeholder="Ex. G." name="middle_name" required></input>
+            </div>
+
+            <div class="last_name">   
+                <label for="last_name">LAST NAME:</label>
+                <input type="text" id="last_name" placeholder="Ex. DELA CRUZ" name="last_name" required></input>
+            </div>
+
+            <div class="gender">
+                <label for="gender">GENDER: </label>
+                <div class="gender-options">
+                    <div class="radio-row">
+                        <label for="male">MALE</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                    </div>
+                    <div class="radio-row">
+                        <label for="female">FEMALE</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                    </div>
+                </div>
+            </div>
+
+            <div class="date_of_birth">   
+                <label for="dob">DATE OF BIRTH:</label>
+                <input type="date" id="dob" placeholder="EX. JANUARY 22,2002" name="dob" required min="1990-01-01" max="2010-02-04"></input>
+            </div>
+
+            <div class = ".college">
+                <label for="college">COLLEGE:</label>
+            <select id="college" required name="college">
+                <option value="" disabled selected></option>
+                <option value="CAF">CAF - College of Accountancy and Finance</option>
+                <option value="CADBE">CADBE - College of Architecture, Design and the Built Environment  </option>
+                <option value="CAL">CAL - College of Arts and Letters</option>
+                <option value="CBA">CBA - College of Business Administration</option>
+                <option value="COC">COC - College of Communication</option>
+                <option value="CCIS">CCIS - College of Computer and Information Sciences</option>
+                <option value="COED">COED - College of Education </option>
+                <option value="CE">CE - College of Engineering</option>
+                <option value="CHK">CHK - College of Human Kinetics</option>
+                <option value="CL">CL - College of Law</option>
+                <option value="CPSPA">CPSPA - College of Political Science and Public Administration </option>
+                <option value="CSSD">CSSD - College of Social Sciences and Development</option>
+                <option value="CS">CS - College of Science</option>
+                <option value="CTHTM">CTHTM - College of Tourism, Hospitality and Transportation Management</option>
+            </select>
+            </div>
+
+            <div class="course_section">   
+                <label for="course_section">COURSE, YEAR & SECTION:</label>
+                <input type="text" id="course_section" placeholder="EX. BSIT 3-5" name="course_section" required></input>
+            </div>
+
+            <div class="home_address">   
+                <label for="home_address">HOME ADDRESS:</label>
+                <input type="text" id="home_address" placeholder="EX. 15 A. MABINI CAMPUS, ANONAS STREET, STA. MESA" name="home_address" required></input>
+            </div>
+
+            <div class="Phone_number">   
+                <label for="Phone_number">PHONE NUMBER:</label>
+                <input type="text" id="Phone_number" placeholder="EX. 09186450956" name="Phone_number" pattern="[0-9]{11}" required></input>
+            </div>
+
+            <div class="email_address">   
+                <label for="email_address">EMAIL ADDRESS:</label>
+                <input type="email" id="email_address" placeholder="EX. rhona@gmail.com" name="email_address"  required></input>
+            </div>
+
+            <h1>In case of emergency, please notify:</h1>
+
+            <div class="complete_name">   
+                <label for="complete_name">COMPLETE NAME:</label>
+                <input type="text" id="complete_name" placeholder="EX. JHON G. DELA CRUZ" name="complete_name" required></input>
+            </div>
+
+            <div class="number">   
+                <label for="number">PHONE NUMBER:</label>
+                <input type="text" id="number" placeholder="EX. 09186450956" name="number" pattern="[0-9]{11}" required></input>
+            </div>
+          
+            <div class="address">   
+                <label for="address">ADDRESS:</label>
+                <input type="text" id="ddress" placeholder="EX. 15 A. MABINI CAMPUS, ANONAS STREET, STA. MESA" name="address" required></input>
+            </div>
+
+            <div id="submit-button">
+                <input type="submit" id="submitForm" value="Submit"/>
+            </div>
+
+    </div>   
+     
+</main>
+
+<!-- -----footer------ -->
+    <div class="footer">
+            <p class="footer-links">
+                <a href="https://www.pup.edu.ph/"><b>Polytechnic University of the Philippines</b></a> |
+                <a href="https://www.pup.edu.ph/terms/"><b>Terms of Use</b></a> |
+                <a href="https://www.pup.edu.ph/privacy/"><b>Privacy Statement</b></a>
+            </p>
+    </div>
+</div>
+<!-- -----main container end------ -->
+
+<!-- -----script------ -->
+
+
+</body>
+</html>

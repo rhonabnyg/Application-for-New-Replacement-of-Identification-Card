@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body {
+    background: linear-gradient(rgba(146, 19, 19, 0.829), rgba(0, 0, 0, 0.418)), url(Images/PUP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* -------------------------header------------------------- */
+h2 {
+    color: white;
+    font-size: 15px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+p a {
+    color: white;
+    text-decoration: none;
+}
+
+/* -------------------------nav------------------------ */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+#header {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+.title {
+    margin: 0 0 0 30px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* -------------------------header text------------------------- */
+.header-text {
+    margin-top: 15%;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.header-text h1 span {
+    color: #ffffff;
+}
+
+.header-text h2 {
+    font-size: 20px;
+}
+
+/* -------------------------nav------------------------- */
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+/* -------------------------form------------------------- */
+form {
+    margin: 0 0 10px 0;
+}
+
+label {
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+    color: #800000;
+    margin: 0 10px 1px 0;
+}
+
+input, select {
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* -------------------------main------------------------- */
+.page-background {
+    background-color: #ffffff;
+    border: 0px solid #ccc;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 10px auto 0 auto;
+    max-width: 80%;
+    box-shadow: 0 2px 4px #0000001a;
+}
+
+.checkbox-container {
+    margin-left: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gender-options {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between male and female radio buttons */
+}
+
+.radio-row{
+    display: flex;
+    align-items: center;
+}
+
+.radio-row label {
+    margin: 10px; /* Reset margin for the label */
+}
+
+.radio-row input {
+    margin-right: 10px; /* Adjust the gap between radio button and label */
+    vertical-align: text-bottom;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.checkbox-row label {
+    margin-right: 0px;
+    min-width: 150px;
+}
+
+/* -------------------------submit button------------------------- */
+#submitForm {
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 40px 0 0 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#submitForm:hover {
+    background-color: #5c0000;
+}
+
+/* -------------------------footer------------------------- */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0px;
+    background: #5c0000;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.footer-links {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
